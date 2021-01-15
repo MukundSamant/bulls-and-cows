@@ -1,0 +1,61 @@
+$font-size: 15px;
+$font-family: Arial, Helvetica, sans-serif;    
+
+.main-container {
+  font-size: $font-size;
+  font-family: $font-family;
+}
+
+.input-container {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+
+  input {
+      width: 50%;
+      height: 5%;
+      font-size: $font-size;
+      font-family: $font-family;
+      display: block;
+      margin: 20px auto;
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+  .button-view {
+    display: block;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+  }
+
+  button {
+    display: block;
+    margin: 10px auto;
+    width: 20%;
+    height: 35px;
+  }
+
+}
+
+.table-container {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    table, td, th{
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+    
+    td, th {
+        padding: 8px;
+    }
+
+}
